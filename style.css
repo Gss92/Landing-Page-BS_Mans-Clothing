@@ -154,7 +154,30 @@ body {
 }
 
 @media (max-width: 767px) {
+    #inicio {
+        background-size: 100% 100%;
+        
+        height: 100%;
+    }
 
+    .conteudo-inicio {
+        padding-top: 50px;
+    }
+    
+    .text-inicio { 
+        font-size: 35px;
+    }
+    
+    .buttom-inicio {
+        color: #fff;
+        background-color: #e2c20f;
+        font-family: 'Montserrat';
+        margin-top: 20px;
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 30px;
+    }
 
-
+    .btn-nav {
+        background-color: #e2c20f;
+    }
 }
