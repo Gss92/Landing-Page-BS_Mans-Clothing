@@ -1,0 +1,160 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cabecalho .nav .nav-link.active {
+    color: #e2c20f;
+}
+
+#produtos .nav .nav-link.active {
+    color: #e2c20f;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    font-family: 'Eczar';
+    color: #e2c20f
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #e2c20f;
+}
+
+.text-colored {
+    color: #e2c20f;
+}
+
+#inicio {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/Mans\ Clothing.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.conteudo-inicio {
+    padding-top: 200px;
+}
+
+.text-inicio {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 80px;
+}
+
+.buttom-inicio {
+    color: #fff;
+    background-color: #e2c20f;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+.buttom-inicio:hover {
+    color: #fff;
+    background-color: #bba10d;
+}
+
+.buttom-inicio a,
+.buttom-inicio a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.div-title-style {
+    margin: 0 auto;
+    
+    border-bottom: 3px solid #e2c20f; 
+}
+
+.section-title-1 {
+    font-family: 'Montserrat';
+    color: #292929;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section-title-2 {
+    font-family: 'Montserrat';
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.p-style {
+    color: #fff;
+}
+
+#sobre-a-loja {
+    background-color: #e6e6e6;
+}
+
+#produtos {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#produtos nav {
+    border-right: 3px solid #e2c20f;
+    margin-right: 20px;
+}
+
+#contato {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#lojas {
+    background-color: #e6e6e6;
+}
+
+#rodape {
+    background-color: #000000;
+    color: #fff;
+}
+
+.img-carousel {
+    width: 350px;
+}
+
+.img-lojas {
+    width: 200px;
+    height: 350px;
+}
+
+.text-produtos {
+    color: #e2c20f;
+    font-family: 'Montserrat';
+}
+
+.text-lojas {
+    margin: 0 auto 20px auto;
+    width: 30%;
+    color:#292929;
+    font-family: 'Montserrat';
+    border-bottom: 3px solid #e2c20f;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+
+
+
+}
